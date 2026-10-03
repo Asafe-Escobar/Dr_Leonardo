@@ -226,17 +226,20 @@ header .btn{min-height:44px;padding:0 20px;font-size:15px}
 @media (max-width:460px){.hls{grid-template-columns:1fr}}
 
 /* testimonials */
-.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.review{padding:28px;border-radius:var(--r-md);border:1px solid var(--line-light);background:var(--paper);display:flex;flex-direction:column;gap:16px}
-.stars{display:flex;gap:2px;color:var(--star)}
-.stars svg{width:18px;height:18px;fill:currentColor}
-.review blockquote{margin:0;font-size:17px;line-height:1.55}
-.who{display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:16px;border-top:1px solid var(--line-light)}
-.av{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font:600 16px/1 var(--sans);color:#fff}
-.who b{display:block;font-size:15px}
-.who small{font-size:13px;color:var(--ink-muted)}
+.carousel{position:relative;max-width:900px;margin:0 auto}
+.car-view{overflow:hidden;border-radius:var(--r-md)}
+.car-track{display:flex;transition:transform .6s ease}
+.car-slide{flex:0 0 100%;display:grid;place-items:center;padding:24px;background:var(--paper);border:1px solid var(--line-light);border-radius:var(--r-md);margin:0}
+.car-slide img{width:100%;height:auto}
+.car-nav{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:22px}
+.car-btn{width:42px;height:42px;border-radius:50%;border:1px solid var(--line-light);background:var(--paper);color:var(--ink);display:grid;place-items:center;cursor:pointer}
+.car-btn:hover{border-color:var(--teal-700);color:var(--teal-700)}
+.car-btn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.car-dots{display:flex;gap:8px}
+.car-dots button{width:9px;height:9px;padding:0;border:0;border-radius:var(--r-pill);background:var(--line-light);cursor:pointer;transition:width .3s,background .3s}
+.car-dots button[aria-current="true"]{width:26px;background:var(--teal-700)}
 .g-note{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:28px;font-size:14px;color:var(--ink-muted)}
-@media (max-width:960px){.reviews{grid-template-columns:1fr}}
+@media (max-width:560px){.car-slide{padding:12px}}
 
 /* faq */
 .faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
@@ -447,22 +450,22 @@ footer{background:var(--navy-900);color:var(--snow-muted);font-size:14px;padding
       <h2 class="h2">O que dizem os pacientes</h2>
       <p class="lead muted">Avaliações publicadas no Google.</p>
     </div>
-    <div class="reviews">
-      <figure class="review" style="margin:0">
-        <div class="stars" aria-label="5 de 5 estrelas"><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg></div>
-        <blockquote>“Profissional atencioso, tirou todas as minhas dúvidas, passando muita confiança.”</blockquote>
-        <figcaption class="who"><span class="av" style="background:#6a3aa8">M</span><div><b>Marcelo Marcelo</b><small>Avaliação no Google</small></div></figcaption>
-      </figure>
-      <figure class="review" style="margin:0">
-        <div class="stars" aria-label="5 de 5 estrelas"><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg></div>
-        <blockquote>“Atendimento humanizado, explicado e com profissionalismo.”</blockquote>
-        <figcaption class="who"><span class="av" style="background:#2d4a6e">I</span><div><b>Italo Rodrigues</b><small>Local Guide · Google</small></div></figcaption>
-      </figure>
-      <figure class="review" style="margin:0">
-        <div class="stars" aria-label="5 de 5 estrelas"><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9z"/></svg></div>
-        <blockquote>“Excelente médico. Super atencioso e humano!”</blockquote>
-        <figcaption class="who"><span class="av" style="background:#1672b8">C</span><div><b>Carla Monique</b><small>Avaliação no Google</small></div></figcaption>
-      </figure>
+    <div class="carousel" id="reviews" aria-roledescription="carrossel" aria-label="Depoimentos de pacientes">
+      <div class="car-view">
+        <div class="car-track">
+        <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="1 de 6"><img src="img/depoimento-1.jpeg" alt="Avaliação 5 estrelas de Luiza Moreira no Google" loading="lazy"></figure>
+        <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="2 de 6"><img src="img/depoimento-2.jpeg" alt="Avaliação 5 estrelas de Allison Silva no Google" loading="lazy"></figure>
+        <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="3 de 6"><img src="img/depoimento-3.jpeg" alt="Avaliação 5 estrelas de Vânia Araújo no Google" loading="lazy"></figure>
+        <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="4 de 6"><img src="img/depoimento-4.jpeg" alt="Avaliação 5 estrelas de Italo Rodrigues no Google" loading="lazy"></figure>
+        <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="5 de 6"><img src="img/depoimento-5.jpeg" alt="Avaliação 5 estrelas de Carla Monique no Google" loading="lazy"></figure>
+        <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="6 de 6"><img src="img/depoimento-6.jpeg" alt="Avaliação 5 estrelas de Marcelo Marcelo no Google" loading="lazy"></figure>
+        </div>
+      </div>
+      <div class="car-nav">
+        <button class="car-btn" type="button" data-dir="-1" aria-label="Depoimento anterior"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <div class="car-dots"></div>
+        <button class="car-btn" type="button" data-dir="1" aria-label="Próximo depoimento"><svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
     </div>
   </div>
 </section>
@@ -597,6 +600,33 @@ footer{background:var(--navy-900);color:var(--snow-muted);font-size:14px;padding
   function updateHeader(){header.classList.toggle('scrolled',window.scrollY>12)}
   updateHeader();
   window.addEventListener('scroll',updateHeader,{passive:true});
+
+  var car=document.getElementById('reviews');
+  if(car){
+    var track=car.querySelector('.car-track'),slides=track.children,dotsBox=car.querySelector('.car-dots');
+    var idx=0,timer=null,dots=[];
+    for(var i=0;i<slides.length;i++){
+      var d=document.createElement('button');
+      d.type='button';d.setAttribute('aria-label','Ir para depoimento '+(i+1));
+      d.addEventListener('click',(function(n){return function(){go(n);restart()}})(i));
+      dotsBox.appendChild(d);dots.push(d);
+    }
+    function go(n){
+      idx=(n+slides.length)%slides.length;
+      track.style.transform='translateX(-'+idx*100+'%)';
+      dots.forEach(function(d,i){d.setAttribute('aria-current',i===idx?'true':'false')});
+    }
+    function stop(){clearInterval(timer);timer=null}
+    function start(){if(!reduceMotion&&!timer)timer=setInterval(function(){go(idx+1)},5000)}
+    function restart(){stop();start()}
+    car.querySelectorAll('.car-btn').forEach(function(b){b.addEventListener('click',function(){go(idx+ +b.dataset.dir);restart()})});
+    car.addEventListener('mouseenter',stop);car.addEventListener('mouseleave',start);
+    car.addEventListener('focusin',stop);car.addEventListener('focusout',start);
+    var x0=null;
+    track.addEventListener('touchstart',function(e){x0=e.touches[0].clientX;stop()},{passive:true});
+    track.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)go(idx+(dx<0?1:-1));x0=null;start()});
+    go(0);start();
+  }
 
 })();
 </script>
