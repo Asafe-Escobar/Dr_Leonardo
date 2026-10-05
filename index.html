@@ -1,291 +1,218 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Dr. Leonardo Rebouças</title>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Dr. Leonardo Rebouças · Ortopedista em Fortaleza</title>
+<meta name="description" content="Ortopedista e traumatologista em Fortaleza. Tratamentos minimamente invasivos para dores articulares e artrose, com diagnóstico preciso e plano individualizado.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap">
 <style>
 :root{
-  color-scheme: light;
-  --navy-950:#09103a; --navy-900:#0d1646; --navy-800:#17225c; --line-dark:#2a3673;
-  --snow:#eef3f8; --snow-muted:#a8b7cb;
-  --teal-400:#3cc9b5; --teal-700:#0b7268; --teal-50:#e5f6f3;
-  --sand-400:#caa37a; --sand-500:#b88e62;
-  --paper:#ffffff; --mist:#f2f6f9; --line-light:#dbe4ec;
-  --ink:#0d1646; --ink-muted:#4a5b72; --star:#f2b01e;
-  --display:"Montserrat","Segoe UI",system-ui,sans-serif;
-  --sans:"Inter","Segoe UI",system-ui,sans-serif;
-  --r-sm:8px; --r-md:16px; --r-lg:24px; --r-pill:999px;
-  --wrap:1180px;
+  color-scheme:light;
+  --night:#090e36; --night-2:#111850; --steel:#4a72a6; --steel-soft:#b8c6dc;
+  --ink:#131a35; --muted:#525c75; --paper:#f4f6f9; --white:#fff; --line:#dbe0e8; --line-dark:rgba(255,255,255,.16);
+  --go:#0f7a45; --go-hover:#0b6338;
+  --font:"Schibsted Grotesk","Segoe UI",system-ui,sans-serif;
+  --wrap:1180px; --r:6px;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
-body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
-h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance}
-p{margin:0}
-a{color:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--white);color:var(--ink);font:400 17px/1.65 var(--font);-webkit-font-smoothing:antialiased}
+h1,h2,h3{margin:0;font-weight:600;letter-spacing:-.02em;text-wrap:balance}
+p,ul,ol,dl,dd,figure{margin:0}
+ul,ol{padding:0;list-style:none}
 img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--steel);outline-offset:3px}
 .wrap{max-width:var(--wrap);margin:0 auto;padding-inline:24px}
-@media (max-width:560px){.wrap{padding-inline:18px}
-  .hero h1{font-size:27px;margin:14px 0 12px}
-  .hero .lead{font-size:15px;line-height:1.55}
-  .hero .actions{margin-top:20px;gap:10px}
-  .hero .actions .btn{width:100%;min-height:48px}
-  .hero .actions .btn-ghost{display:none}
-  .stats{margin-top:22px;padding-top:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-  .stat{flex-direction:column;align-items:flex-start;gap:6px}
-  .stat .ico{width:22px;height:22px}
-  .stat b{font-size:16px}
-  .stat small{font-size:12px;line-height:1.3}
-  .pill{font-size:12px;padding:6px 11px}
-  .topbar{font-size:12px}
-  .brand img{height:46px}
-  header.site .wrap{min-height:64px}
-  .spec .photo.doc{width:100%;max-width:320px;margin-inline:auto;aspect-ratio:4/5}
-}
-section{padding-block:96px}
-section[id]{scroll-margin-top:92px}
-.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
-.reveal.is-visible{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
-@media (max-width:760px){section{padding-block:64px}}
-.dark{background:var(--navy-950);color:var(--snow)}
-.dark2{background:var(--navy-900);color:var(--snow)}
-.mist{background:var(--mist)}
-.eyebrow{display:inline-flex;align-items:center;gap:8px;font:600 13px/1.2 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--teal-700)}
-.dark .eyebrow,.dark2 .eyebrow{color:var(--teal-400)}
-.h2{font-size:clamp(28px,3.6vw,40px);line-height:1.15}
-.lead{font-size:clamp(17px,1.6vw,19px);line-height:1.6}
-.muted{color:var(--ink-muted)}
-.dark .muted,.dark2 .muted{color:var(--snow-muted)}
-.hl{color:var(--teal-400)}
-.btn{white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:var(--r-sm);font:600 16px/1 var(--sans);text-decoration:none;transition:background .2s,transform .2s,border-color .2s;cursor:pointer;border:1px solid transparent}
-.btn:focus-visible,a:focus-visible,summary:focus-visible,button:focus-visible{outline:3px solid var(--teal-400);outline-offset:3px}
-@media (max-width:560px){.btn{white-space:normal;text-align:center;padding-block:14px;line-height:1.3}}
-.btn-primary{background:var(--sand-400);color:var(--navy-950)}
-.btn-primary:hover{background:var(--sand-500);transform:translateY(-1px)}
-.btn-ghost{border-color:var(--line-dark);color:var(--snow)}
-.btn-ghost:hover{border-color:var(--snow-muted)}
-.ico{width:24px;height:24px;flex:none;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+section{padding-block:112px}
+@media (max-width:760px){section{padding-block:72px}.wrap{padding-inline:18px}}
+.h2{font-size:clamp(30px,3.6vw,44px);line-height:1.1;max-width:20ch}
+.intro{font-size:19px;line-height:1.6;color:var(--muted);max-width:56ch;margin-top:20px}
+.night{background:var(--night);color:var(--white)}
+.night .intro{color:var(--steel-soft)}
+.paper{background:var(--paper)}
 
-/* top bar + header */
-.topbar{background:var(--navy-900);color:var(--snow-muted);font-size:13px}
-.topbar .wrap{display:flex;justify-content:space-between;gap:16px;min-height:38px;align-items:center;flex-wrap:wrap}
-.topbar span{display:inline-flex;align-items:center;gap:6px}
-.topbar .ico{width:15px;height:15px;color:var(--teal-400)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 24px;border-radius:var(--r);background:var(--go);color:#fff;font:600 17px/1.2 var(--font);text-decoration:none;transition:background .15s}
+.btn:hover{background:var(--go-hover)}
+.btn .wa{width:22px;height:22px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round}
+.btn.quiet{background:transparent;color:inherit;box-shadow:inset 0 0 0 1.5px currentColor}
+.btn.quiet:hover{background:rgba(127,140,170,.12)}
+.btn.light{background:#fff;color:var(--night)}
+.btn.light:hover{background:var(--steel-soft)}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:36px}
+@media (max-width:560px){.actions .btn,.cta-row .btn{width:100%}}
+.cta-row{margin-top:48px}
+
+/* header */
+.topbar{background:var(--night);color:var(--steel-soft);font-size:14px;border-bottom:1px solid var(--line-dark)}
+.topbar .wrap{display:flex;justify-content:space-between;gap:20px;min-height:38px;align-items:center}
 @media (max-width:760px){.topbar .hide-sm{display:none}}
-header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(9,16,58,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line-dark);color:var(--snow)}
-header.site.scrolled{box-shadow:0 10px 28px rgba(0,0,0,.18)}
-header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:74px}
-.brand{display:flex;align-items:center;text-decoration:none}
-.brand img{height:58px;width:auto}
-.brand-mark{width:40px;height:40px;border-radius:12px;border:1px solid var(--line-dark);display:grid;place-items:center;color:var(--teal-400)}
-.brand b{white-space:nowrap;display:block;font:500 17px/1.1 var(--display)}
-.brand small{display:block;font-size:12px;color:var(--snow-muted);letter-spacing:.02em}
-nav.main{display:flex;gap:22px;font-size:15px;white-space:nowrap}
-nav.main a{text-decoration:none;color:var(--snow-muted);transition:color .2s}
-nav.main a:hover,nav.main a[aria-current="true"]{color:var(--snow)}
-header .btn{min-height:44px;padding:0 20px;font-size:15px}
-.menu-btn{display:none;background:none;border:1px solid var(--line-dark);border-radius:var(--r-sm);color:var(--snow);width:44px;height:44px;align-items:center;justify-content:center}
-@media (max-width:1180px){
-  nav.main{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;gap:0;background:var(--navy-950);border-bottom:1px solid var(--line-dark);padding:8px 24px 20px}
+header.site{position:sticky;top:0;z-index:50;background:var(--night);color:#fff;transition:box-shadow .2s}
+header.site.scrolled{box-shadow:0 1px 0 var(--line-dark)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:76px}
+.brand img{height:54px;width:auto}
+nav.main{display:flex;gap:22px;font-size:15.5px;white-space:nowrap}
+nav.main a{text-decoration:none;color:var(--steel-soft);padding-block:6px;border-bottom:2px solid transparent}
+nav.main a:hover,nav.main a[aria-current="true"]{color:#fff;border-bottom-color:var(--steel)}
+header .btn{min-height:44px;padding:0 18px;font-size:15.5px;white-space:nowrap}
+.menu-btn{display:none;width:44px;height:44px;border:1px solid var(--line-dark);border-radius:var(--r);background:none;color:#fff;align-items:center;justify-content:center}
+.menu-btn svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8}
+@media (max-width:1120px){
+  nav.main{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;gap:0;background:var(--night);padding:4px 24px 20px;border-bottom:1px solid var(--line-dark)}
   nav.main.open{display:flex}
-  nav.main a{padding:12px 0;border-bottom:1px solid var(--line-dark)}
+  nav.main a{padding:13px 0;border-bottom:1px solid var(--line-dark)}
   .menu-btn{display:inline-flex}
-  header .btn.cta-head{display:none}
+  header .btn{display:none}
 }
+@media (max-width:560px){.brand img{height:44px}header.site .wrap{min-height:64px}}
 
 /* hero */
-.hero{position:relative;overflow:hidden;color:var(--snow);padding-block:84px 92px;background:radial-gradient(900px 520px at 80% 30%,rgba(60,120,255,.14),transparent 60%),linear-gradient(180deg,#0d1646,#09103a)}
-.hero .wrap{position:relative;display:grid;grid-template-columns:.95fr 1.05fr;gap:48px;align-items:center;max-width:1340px}
-.hero-media{position:relative;width:100%;max-width:640px;justify-self:end}
-.hero-media img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;object-position:42% 50%;border-radius:var(--r-lg);border:1px solid var(--line-dark);box-shadow:0 30px 80px -30px rgba(0,0,0,.7),0 0 0 8px rgba(255,255,255,.03)}
-.hero-media .float.f1{left:-28px;bottom:36px}
-.pill{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:var(--r-pill);border:1px solid var(--line-dark);background:rgba(23,34,92,.6);font-size:14px;color:var(--snow)}
-.hero h1{font-size:clamp(34px,3.9vw,52px);line-height:1.08;margin:24px 0 22px;font-weight:400;letter-spacing:-.01em}
-.hero .lead{color:var(--snow-muted);max-width:58ch}
-.hero .actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
-.stats{display:flex;flex-wrap:wrap;gap:14px 36px;margin-top:44px;padding-top:28px;border-top:1px solid var(--line-dark)}
-.stat{display:flex;align-items:center;gap:12px}
-.stat .ico{color:var(--teal-400);width:28px;height:28px}
-.stat b{display:block;font:500 24px/1.1 var(--display);font-variant-numeric:tabular-nums}
-.stat small{font-size:13px;color:var(--snow-muted)}
-.photo{position:relative;border-radius:var(--r-lg);overflow:hidden;aspect-ratio:4/5;max-width:100%;background:linear-gradient(160deg,#1a2868,#0f2038 70%);border:1px solid var(--line-dark)}
-.photo .ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;color:var(--snow-muted);text-align:center;padding:24px}
-.photo .ph svg{width:46%;height:auto;opacity:.5}
-.photo .ph span{font-size:13px;letter-spacing:.06em;text-transform:uppercase}
-.float{position:absolute;display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:14px;background:var(--paper);color:var(--ink);box-shadow:0 18px 40px -18px rgba(0,0,0,.55)}
-.float .ic{width:40px;height:40px;border-radius:10px;background:var(--teal-50);color:var(--teal-700);display:grid;place-items:center}
-.float b{display:block;font:600 15px/1.2 var(--display)}
-.float small{font-size:12.5px;color:var(--ink-muted)}
-.float.f1{left:-28px;bottom:48px}
-.float.f2{right:-18px;top:36px}
-@media (max-width:900px){
-  .hero{padding-block:24px 48px}
-  .hero .wrap{display:flex;flex-direction:column;gap:0}
-  .hero-media{order:-1;max-width:none;margin:0 0 22px}
-  .hero .wrap > div:first-child{max-width:none}
-  .hero-media img{aspect-ratio:16/11;max-height:300px;object-position:45% 45%;border-radius:var(--r-md)}
-  .hero-media .float{display:none}
+.hero{padding:0;background:url(img/hero.webp) right center/auto 100% no-repeat,linear-gradient(90deg,#090e36 55%,#050850);color:#fff}
+.hero .wrap{min-height:min(84vh,700px);display:flex;align-items:center;padding-block:72px}
+.hero-txt{max-width:600px}
+.hero h1{font-size:clamp(40px,5.4vw,68px);line-height:1.02;letter-spacing:-.035em;font-weight:600}
+.hero .sub{margin-top:24px;font-size:20px;line-height:1.55;color:var(--steel-soft);max-width:44ch}
+.hero .kicker{font-size:16px;color:var(--steel-soft);margin-bottom:22px;max-width:40ch}
+.hero .creds{margin-top:40px;font-size:15.5px;color:#fff;padding-left:14px;border-left:2px solid var(--steel)}
+.hero-img{display:none}
+@media (max-width:1000px){.hero{background:linear-gradient(90deg,rgba(9,14,54,.94) 45%,rgba(9,14,54,.4)),url(img/hero.webp) 70% center/cover no-repeat}}
+@media (max-width:760px){
+  .hero{background:var(--night)}
+  .hero .wrap{display:block;min-height:0;padding-block:0 56px}
+  .hero-img{display:block;width:calc(100% + 36px);max-width:none;margin:0 -18px 28px;height:auto;aspect-ratio:6/5;object-fit:cover;-webkit-mask-image:linear-gradient(#000 75%,transparent);mask-image:linear-gradient(#000 75%,transparent)}
+  .hero .sub{font-size:18px}
 }
 
+/* autoridade */
+.auth{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:72px;align-items:center}
+.cred-list{margin-top:32px;border-top:1px solid var(--line)}
+.cred-list li{padding:16px 0;border-bottom:1px solid var(--line);font-size:18px;line-height:1.45}
+.cred-list strong{font-weight:700}
+.mosaic{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);grid-template-rows:1fr 1fr;gap:12px;height:620px}
+.mosaic img{width:100%;height:100%;object-fit:cover;border-radius:var(--r);min-height:0}
+.mosaic img:first-child{grid-row:1/3}
+@media (max-width:900px){.auth{grid-template-columns:minmax(0,1fr);gap:48px}.mosaic{height:auto;grid-template-rows:auto}.mosaic img{height:auto;aspect-ratio:3/4}.mosaic img:first-child{grid-row:1/3;height:100%}}
 
-/* doctor band */
-.docband{position:relative;overflow:hidden;color:var(--snow);background:url(img/hero.webp) calc(50% + 120px) center/auto 100% no-repeat,linear-gradient(90deg,#090f37 55%,#05084f 100%);min-height:600px;display:flex;align-items:center;padding-block:96px}
-.docband::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#090f37 0%,#090f37 calc(50% - 60px),rgba(9,15,55,.45) calc(50% + 60px),rgba(9,15,55,0) calc(50% + 180px));pointer-events:none}
-.docband .wrap{position:relative;width:100%}
-.docband .txt{max-width:560px}
-.docband .muted{color:var(--snow-muted)}
-.docband .h2{margin:14px 0 18px}
-.docband .reg{margin:0 0 26px}
-.docband .reg span{background:rgba(23,34,92,.6);border-color:var(--line-dark);color:var(--snow)}
-.docband .actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
-.docband-img{display:none}
-@media (max-width:1100px){.docband::before{background:linear-gradient(90deg,#090f37 0%,#090f37 45%,rgba(9,15,55,.6) 65%,rgba(9,15,55,.2) 100%)}}
+/* sintomas */
+.split{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:80px;align-items:start}
+.split > div:first-child{position:sticky;top:120px}
+.sym-list{border-top:1px solid var(--line)}
+.sym-list li{padding:26px 0;border-bottom:1px solid var(--line)}
+.sym-list h3{font-size:21px;line-height:1.3}
+.sym-list p{color:var(--muted);margin-top:6px}
+.note{margin-top:32px;font-size:18px;max-width:52ch}
+@media (max-width:900px){.split{grid-template-columns:minmax(0,1fr);gap:40px}.split > div:first-child{position:static}}
+
+/* tratamentos */
+.treat-list{margin-top:36px;border-top:1px solid var(--line)}
+.treat-list li{padding:15px 0;border-bottom:1px solid var(--line);font-size:19px;font-weight:500;line-height:1.35}
+#tratamentos .split{align-items:start}
+#tratamentos .treat-list{margin-top:0}
+.strip{margin-top:64px;overflow:hidden;touch-action:pan-y}
+.strip-track{display:flex;gap:12px;transition:transform .7s ease}
+.strip img{min-width:0;flex:0 0 calc((100% - 36px)/3.4);height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r)}
+.strip-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;margin-top:24px}
+@media (max-width:900px){.strip{margin-top:40px}.strip img{flex-basis:calc((100% - 12px)/2.2)}}
+@media (max-width:560px){.strip img{flex-basis:78%}.strip-foot .btn{width:100%}}
+
+/* consulta */
+.flow{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));margin-top:64px;position:relative}
+.flow::before{content:"";position:absolute;left:0;right:0;top:15px;height:1px;background:var(--line-dark)}
+.flow li{position:relative;padding-right:16px;font-size:16.5px;line-height:1.35}
+.flow .n{display:grid;place-items:center;width:31px;height:31px;border-radius:50%;background:var(--night);border:1px solid var(--steel);color:var(--steel-soft);font-size:14px;font-weight:600;margin-bottom:16px;position:relative}
+.flow li:last-child .n{background:#fff;border-color:#fff;color:var(--night)}
+.flow li:last-child{font-weight:600}
+.visit-photos{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1fr);gap:12px;margin-top:72px}
+.visit-photos img{width:100%;height:420px;object-fit:cover;border-radius:var(--r)}
 @media (max-width:900px){
-  .docband{background:#090f37;min-height:0;display:block;padding-block:24px 56px}
-  .docband::before{display:none}
-  .docband .wrap{display:flex;flex-direction:column}
-  .docband-img{order:-1;display:block;width:100%;height:auto;max-height:300px;margin:0 0 22px;aspect-ratio:6/5;object-fit:cover;object-position:60% 15%;border-radius:var(--r-md);-webkit-mask-image:linear-gradient(180deg,#000 70%,transparent);mask-image:linear-gradient(180deg,#000 70%,transparent)}
-  .docband .actions .btn{width:100%}
+  .flow{grid-template-columns:minmax(0,1fr);gap:0;margin-top:44px}
+  .flow::before{left:15px;right:auto;top:8px;bottom:8px;width:1px;height:auto}
+  .flow li{display:flex;align-items:center;gap:16px;padding:8px 0}
+  .flow .n{margin:0;flex:none}
+  .visit-photos{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:48px}
+  .visit-photos img{height:auto;aspect-ratio:3/4}
+  .visit-photos img:first-child{grid-column:1/-1;aspect-ratio:4/3}
 }
 
-/* symptoms */
-.sym{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
-.sym-list{display:grid;gap:14px}
-.sym-item{display:flex;gap:16px;align-items:flex-start;padding:20px 22px;background:var(--paper);border:1px solid var(--line-light);border-radius:var(--r-md)}
-.check{width:30px;height:30px;border-radius:50%;background:var(--teal-50);color:var(--teal-700);display:grid;place-items:center;flex:none}
-.check .ico{width:17px;height:17px;stroke-width:2.4}
-.sym-item p{font-size:17px;line-height:1.5;padding-top:3px}
-.support{margin-top:10px;padding:24px;border-radius:var(--r-md);background:var(--navy-900);color:var(--snow)}
-.support p{font-size:17px;line-height:1.6}
-.support .btn{margin-top:20px}
-@media (max-width:900px){.sym{grid-template-columns:1fr;gap:32px}}
+/* por que */
+.why{margin-top:48px;border-top:1px solid var(--ink)}
+.why .row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:32px;padding:26px 0;border-bottom:1px solid var(--line)}
+.why dt{font-size:22px;font-weight:600;line-height:1.3;letter-spacing:-.01em}
+.why dd{color:var(--muted);font-size:18px}
+@media (max-width:700px){.why .row{grid-template-columns:minmax(0,1fr);gap:6px}}
 
-/* treatments */
-.sec-head{max-width:720px;margin-bottom:48px}
-.sec-head .h2{margin:14px 0 14px}
-.sec-head.center{text-align:center;margin-inline:auto}
-.treat{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.card{padding:30px 28px;border:1px solid var(--line-light);border-radius:var(--r-md);background:var(--paper);display:flex;flex-direction:column;gap:14px}
-.card .well{width:56px;height:56px;border-radius:14px;background:var(--teal-50);color:var(--teal-700);display:grid;place-items:center}
-.card .well .ico{width:28px;height:28px}
-.card h3{font-size:21px;font-weight:600;line-height:1.3}
-.card .tag{font-size:13px;color:var(--ink-muted);letter-spacing:.02em}
-.card p{color:var(--ink-muted)}
-.card.feature{background:var(--navy-900);border-color:var(--navy-900);color:var(--snow);position:relative}
-.card.feature p,.card.feature .tag{color:var(--snow-muted)}
-.card.feature .well{background:rgba(60,201,181,.14);color:var(--teal-400)}
-.badge{position:absolute;top:22px;right:22px;padding:5px 11px;border-radius:var(--r-pill);background:var(--sand-400);color:var(--navy-950);font:600 12px/1.2 var(--sans);letter-spacing:.04em;text-transform:uppercase}
-.plus{display:flex;align-items:center;gap:8px;font:500 14px/1 var(--display);color:var(--teal-400);margin-top:auto;padding-top:6px}
-.plus span{padding:6px 10px;border:1px solid var(--line-dark);border-radius:var(--r-pill);color:var(--snow)}
-@media (max-width:960px){.treat{grid-template-columns:1fr}}
-
-
-.knee-art{margin:28px 0 0;padding:0;overflow:hidden;border-radius:var(--r-lg);background:radial-gradient(420px 300px at 50% 60%,#1a2868,var(--navy-950));border:1px solid var(--line-dark)}
-.knee-art img{display:block;width:100%;height:auto;max-height:520px;object-fit:cover;object-position:center 40%}
-.knee-art figcaption{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;margin-top:14px;font-size:13px;color:var(--snow-muted)}
-.knee-art figcaption span{display:inline-flex;align-items:center;gap:7px}
-.knee-art i{width:10px;height:10px;border-radius:50%}
-.dot-pain{background:#ff6a3c}.dot-cart{background:var(--teal-400)}.dot-nerve{background:#e0b44c}
-.pulse{transform-origin:200px 312px;animation:pulse 3.2s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:.75;transform:scale(.94)}50%{opacity:1;transform:scale(1.04)}}
-.art{height:auto;aspect-ratio:1/1;margin:-30px -28px 6px;border-radius:var(--r-md) var(--r-md) 0 0;overflow:hidden;background:var(--navy-900)}
-.art img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}
-.card:hover .art img{transform:scale(1.04)}
-.card.feature .art{background:radial-gradient(300px 160px at 50% 70%,#1d2a6b,var(--navy-800));border-bottom-color:var(--line-dark)}
-.card.feature .badge{z-index:1}
-
-/* how it works */
-.how{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-.how .h2{margin:14px 0 22px}
-.how p + p{margin-top:16px}
-.how .btn{margin-top:32px}
-.steps{display:grid;gap:0;position:relative}
-.step{display:grid;grid-template-columns:52px 1fr;gap:18px;padding:22px 0;position:relative}
-.step:not(:last-child)::after{content:"";position:absolute;left:25px;top:74px;bottom:-4px;width:2px;background:var(--line-dark)}
-.step .n{width:52px;height:52px;border-radius:50%;border:1px solid var(--line-dark);background:var(--navy-800);display:grid;place-items:center;font:500 18px/1 var(--display);color:var(--teal-400)}
-.step h3{font-size:19px;font-weight:500;margin-bottom:6px}
-.step p{color:var(--snow-muted);font-size:15.5px}
-.step.result .n{background:var(--sand-400);border-color:var(--sand-400);color:var(--navy-950)}
-@media (max-width:900px){.how{grid-template-columns:1fr;gap:40px}}
-
-/* specialist */
-.spec{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center}
-.spec .photo.doc{background:radial-gradient(420px 380px at 55% 35%,#23307a,#09103a 75%);border-color:var(--navy-900);display:flex;align-items:flex-end;justify-content:center;overflow:hidden}
-.spec .photo.doc img{height:97%;width:auto;max-width:none;margin-bottom:-2px}
-.spec .photo .ph{color:var(--ink-muted)}
-.spec .h2{margin:14px 0 20px}
-.hls{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:30px 0}
-.hl-box{padding:22px;border-radius:var(--r-md);border:1px solid var(--line-light);background:var(--paper)}
-.hl-box b{display:block;font:500 30px/1.1 var(--display);color:var(--teal-700);font-variant-numeric:tabular-nums}
-.hl-box span{font-size:14.5px;color:var(--ink-muted);display:block;margin-top:6px}
-.reg{display:inline-flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
-.reg span{font-size:13px;padding:6px 12px;border-radius:var(--r-pill);background:var(--paper);border:1px solid var(--line-light);color:var(--ink-muted)}
-@media (max-width:900px){.spec{grid-template-columns:1fr;gap:40px}.spec .photo{width:100%;max-width:420px;margin-inline:auto}}
-@media (max-width:460px){.hls{grid-template-columns:1fr}}
-
-/* testimonials */
-.carousel{position:relative;max-width:900px;margin:0 auto}
-.car-view{overflow:hidden;border-radius:var(--r-md)}
+/* depoimentos */
+.carousel{max-width:880px;margin-top:48px}
+.car-view{overflow:hidden;border-radius:var(--r)}
 .car-track{display:flex;transition:transform .6s ease}
-.car-slide{flex:0 0 100%;display:grid;place-items:center;padding:24px;background:var(--paper);border:1px solid var(--line-light);border-radius:var(--r-md);margin:0}
+.car-slide{flex:0 0 100%;display:grid;place-items:center;padding:28px;background:#fff;border:1px solid var(--line);border-radius:var(--r);min-height:280px}
 .car-slide img{width:100%;height:auto}
-.car-nav{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:22px}
-.car-btn{width:42px;height:42px;border-radius:50%;border:1px solid var(--line-light);background:var(--paper);color:var(--ink);display:grid;place-items:center;cursor:pointer}
-.car-btn:hover{border-color:var(--teal-700);color:var(--teal-700)}
+.car-nav{display:flex;align-items:center;gap:16px;margin-top:20px}
+.car-btn{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--ink);display:grid;place-items:center;cursor:pointer}
+.car-btn:hover{border-color:var(--ink)}
 .car-btn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .car-dots{display:flex;gap:8px}
-.car-dots button{width:9px;height:9px;padding:0;border:0;border-radius:var(--r-pill);background:var(--line-light);cursor:pointer;transition:width .3s,background .3s}
-.car-dots button[aria-current="true"]{width:26px;background:var(--teal-700)}
-.g-note{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:28px;font-size:14px;color:var(--ink-muted)}
-@media (max-width:560px){.car-slide{padding:12px}}
+.car-dots button{width:8px;height:8px;padding:0;border:0;border-radius:4px;background:#c3cad6;cursor:pointer;transition:width .3s}
+.car-dots button[aria-current="true"]{width:24px;background:var(--ink)}
+.reviews-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;max-width:880px;margin-top:8px}
+@media (max-width:560px){.car-slide{padding:12px;min-height:0}}
+
+/* especialista */
+.spec{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:80px;align-items:center}
+.spec-photo{background:var(--night);border-radius:var(--r);display:flex;justify-content:center;align-items:flex-end;height:620px;overflow:hidden}
+.spec-photo img{height:96%;width:auto;max-width:none}
+.spec .reg{margin-top:12px;color:var(--muted);font-size:16px}
+.spec p.body{margin-top:20px;max-width:58ch}
+.spec p.body + p.body{color:var(--muted)}
+@media (max-width:900px){.spec{grid-template-columns:minmax(0,1fr);gap:40px}.spec-photo{height:440px}}
 
 /* faq */
-.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
-.faq{display:grid;gap:12px}
-details{border:1px solid var(--line-dark);border-radius:var(--r-md);background:var(--navy-800)}
-summary{list-style:none;cursor:pointer;padding:22px 24px;display:flex;justify-content:space-between;align-items:center;gap:16px;font:500 18px/1.35 var(--display)}
+.faq{border-top:1px solid var(--ink)}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0;font-size:20px;font-weight:600;line-height:1.35}
 summary::-webkit-details-marker{display:none}
-summary .pm{width:30px;height:30px;border-radius:50%;border:1px solid var(--line-dark);display:grid;place-items:center;flex:none;color:var(--teal-400);transition:transform .2s}
-details[open] summary .pm{transform:rotate(45deg)}
-details .ans{padding:0 24px 22px;color:var(--snow-muted);max-width:62ch}
-@media (max-width:900px){.faq-grid{grid-template-columns:1fr;gap:32px}}
+.pm{position:relative;width:18px;height:18px;flex:none}
+.pm::before,.pm::after{content:"";position:absolute;left:0;right:0;top:8px;height:2px;background:currentColor;transition:transform .2s}
+.pm::after{transform:rotate(90deg)}
+details[open] .pm::after{transform:rotate(0)}
+details p{padding:0 0 26px;color:var(--muted);max-width:64ch}
 
-/* location + final cta */
-.loc{display:grid;grid-template-columns:1fr 1fr;gap:22px}
-.loc-card{padding:32px;border-radius:var(--r-md);border:1px solid var(--line-light);background:var(--paper);display:flex;flex-direction:column;gap:18px}
-.loc-row{display:flex;gap:14px;align-items:flex-start}
-.loc-row .ico{color:var(--teal-700);margin-top:2px}
-.loc-row b{display:block;font-size:16px}
-.loc-row span{color:var(--ink-muted)}
-.map-card{border-radius:var(--r-md);background:var(--navy-900);color:var(--snow);padding:32px;display:flex;flex-direction:column;justify-content:space-between;gap:24px;position:relative;overflow:hidden;min-height:280px}
-.map-card svg.grid{position:absolute;inset:0;width:100%;height:100%;opacity:.35}
-.map-card > *:not(.grid){position:relative}
-.pin{width:54px;height:54px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--sand-400);display:grid;place-items:center}
-.pin i{width:18px;height:18px;border-radius:50%;background:var(--navy-950)}
-.map-card .btn-ghost{align-self:flex-start}
-@media (max-width:860px){.loc{grid-template-columns:1fr}}
-.final{text-align:center;color:var(--snow);background:radial-gradient(700px 300px at 50% 0%,rgba(60,201,181,.12),transparent 70%),var(--navy-950)}
-.final .h2{max-width:760px;margin:14px auto 16px}
-.final .lead{max-width:600px;margin:0 auto 14px;color:var(--snow-muted)}
-.wa-num{margin:0 0 28px;color:var(--snow-muted);font-size:15px}.wa-num strong{color:var(--snow);font-weight:600;user-select:all}
+/* local + final */
+.local{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:64px;align-items:stretch}
+.addr{margin-top:28px;font-size:19px;line-height:1.55}
+.local dl{margin-top:28px;border-top:1px solid var(--line)}
+.local dl div{padding:14px 0;border-bottom:1px solid var(--line)}
+.local dt{font-size:14px;color:var(--muted)}
+.local dd{font-size:17px}
+.map{width:100%;min-height:380px;height:100%;border:0;border-radius:var(--r);background:var(--line)}
+@media (max-width:900px){.local{grid-template-columns:minmax(0,1fr);gap:36px}}
+.final .wrap{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:48px;align-items:end}
+.final .h2{font-size:clamp(32px,4.2vw,54px);max-width:16ch}
+.final .side p{color:var(--steel-soft);font-size:18px}
+.final .side .btn{margin-top:28px}
+.final .phone{margin-top:16px;font-size:16px;color:var(--steel-soft)}
+.final .phone strong{color:#fff;font-weight:600}
+@media (max-width:900px){.final .wrap{grid-template-columns:minmax(0,1fr);gap:28px}}
 
-footer{background:var(--navy-900);color:var(--snow-muted);font-size:14px;padding-block:48px 32px;border-top:1px solid var(--line-dark)}
-.foot{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:36px}
-.foot h4{margin:0 0 12px;font:600 13px/1.2 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--snow)}
-.foot a{text-decoration:none;display:block;padding:3px 0}
-.foot a:hover{color:var(--snow)}
-.legal{margin-top:36px;padding-top:22px;border-top:1px solid var(--line-dark);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:13px}
-.legal strong{color:var(--snow);font-weight:500}
-@media (max-width:760px){.foot{grid-template-columns:1fr}}
+footer{background:var(--night);color:var(--steel-soft);font-size:15px;padding-block:56px 36px;border-top:1px solid var(--line-dark)}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+.foot h4{margin:0 0 12px;font-size:15px;font-weight:600;color:#fff}
+.foot a{display:block;text-decoration:none;padding:3px 0}
+.foot a:hover{color:#fff}
+.legal{margin-top:40px;padding-top:22px;border-top:1px solid var(--line-dark);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:14px}
+@media (max-width:760px){.foot{grid-template-columns:minmax(0,1fr)}}
 </style>
+</head>
+<body>
 
 <div class="topbar">
   <div class="wrap">
-    <span><svg class="ico" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Av. Dom Luís, 880, sala 1 · Aldeota, Fortaleza</span>
-    <span class="hide-sm"><svg class="ico" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>(85) 9138-5597</span>
-    <span class="hide-sm"><svg class="ico" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg>CRM-CE 17431 · RQE 13567</span>
+    <span>Av. Dom Luís, 880, sala 1, Aldeota, Fortaleza</span>
+    <span class="hide-sm">WhatsApp (85) 9138-5597</span>
   </div>
 </div>
 
@@ -295,240 +222,227 @@ footer{background:var(--navy-900);color:var(--snow-muted);font-size:14px;padding
     <nav class="main" id="nav">
       <a href="#sintomas">Sintomas</a>
       <a href="#tratamentos">Tratamentos</a>
-      <a href="#como-funciona">Como funciona</a>
-      <a href="#especialista">Especialista</a>
+      <a href="#consulta">A consulta</a>
+      <a href="#por-que">Diferenciais</a>
       <a href="#depoimentos">Depoimentos</a>
+      <a href="#especialista">Especialista</a>
       <a href="#duvidas">Dúvidas</a>
       <a href="#localizacao">Localização</a>
     </nav>
-    <a class="btn btn-primary cta-head" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener">Agendar consulta</a>
-    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><svg class="ico" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="btn" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 2.5 6.5 6.5 6.5l1-1.6-2-1-1 1c-1.2-.5-2.4-1.7-2.9-2.9l1-1-1-2z"/></svg>Agendar consulta</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
   </div>
 </header>
 
 <main>
-<!-- 1. HERO -->
 <section class="hero" id="inicio">
   <div class="wrap">
-    <div>
-      <span class="pill">Ortopedia e Medicina Regenerativa em Fortaleza</span>
-      <h1>Trate a dor articular e recupere seus movimentos <span class="hl">sem precisar de cirurgia.</span></h1>
-      <p class="lead">Através de soluções modernas e seguras, como o PRP e o Ácido Hialurônico, ajudamos a frear o desgaste articular usando os estímulos do seu próprio corpo. Um tratamento minimamente invasivo, realizado no próprio consultório, para você voltar à sua rotina sem dores ou limitações.</p>
+    <div class="hero-txt">
+      <img class="hero-img" src="img/hero-mobile.webp" alt="Dr. Leonardo Rebouças" width="660" height="550">
+      <p class="kicker">Experiência que une ortopedia, intervenção em dor e medicina regenerativa</p>
+      <h1>Volte a se movimentar com menos dor e mais liberdade.</h1>
+      <p class="sub">Tratamentos modernos e minimamente invasivos para dores articulares e artrose, com diagnóstico preciso e um plano individualizado para cada paciente.</p>
       <div class="actions">
-        <a class="btn btn-primary" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener">Quero agendar minha avaliação</a>
-        <a class="btn btn-ghost" href="#tratamentos">Conhecer os tratamentos</a>
+        <a class="btn" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 2.5 6.5 6.5 6.5l1-1.6-2-1-1 1c-1.2-.5-2.4-1.7-2.9-2.9l1-1-1-2z"/></svg>Quero agendar minha avaliação</a>
+        <a class="btn quiet" href="#consulta">Conheça como é a consulta</a>
       </div>
-      <div class="stats">
-        <div class="stat"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><b>+8 anos</b><small>de experiência</small></div></div>
-        <div class="stat"><svg class="ico" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6.5 6.5 0 0 1 3.5 6"/></svg><div><b>10 mil</b><small>pacientes atendidos</small></div></div>
-        <div class="stat"><svg class="ico" viewBox="0 0 24 24"><path d="M3 21V9l9-6 9 6v12"/><path d="M9 21v-6h6v6"/><path d="M12 8v4M10 10h4"/></svg><div><b>Consultório</b><small>sem internação</small></div></div>
-      </div>
-    </div>
-    <div class="hero-media">
-      <img src="img/hero-knee.webp" alt="Joelho com dor articular e a articulação destacada" width="1200" height="800">
-      <div class="float f1"><span class="ic"><svg class="ico" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.8-7 9-4-1.2-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span><div><b>Sem cirurgia</b><small>Feito no consultório</small></div></div>
+      <p class="creds">Ortopedista, medicina regenerativa e tratamentos guiados por ultrassom</p>
     </div>
   </div>
 </section>
 
-<!-- 2. AUTORIDADE -->
-<section class="docband" id="quem-cuida">
-  <div class="wrap">
-    <div class="txt">
-      <span class="eyebrow">Quem vai cuidar do seu joelho</span>
-      <h2 class="h2">Dr. Leonardo Rebouças</h2>
-      <div class="reg"><span>Ortopedista e Traumatologista</span><span>CRM-CE 17431</span><span>RQE 13567</span></div>
-      <p class="lead muted">Mais de 8 anos dedicados à ortopedia e 10 mil pacientes atendidos em Fortaleza. Um atendimento humanizado, com foco em tratamentos minimamente invasivos e Medicina Regenerativa, para você voltar à sua rotina com segurança.</p>
-      <div class="actions">
-        <a class="btn btn-primary" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener">Quero agendar minha avaliação</a>
-        <a class="btn btn-ghost" href="#especialista">Conhecer o especialista</a>
-      </div>
-    </div>
-    <img class="docband-img" src="img/hero-mobile.webp" alt="Dr. Leonardo Rebouças" width="660" height="550">
-  </div>
-</section>
-
-<!-- 2. SINTOMAS -->
-<section class="mist" id="sintomas">
-  <div class="wrap sym">
+<section id="quem-cuida">
+  <div class="wrap auth">
     <div>
-      <span class="eyebrow">Sinais de alerta</span>
-      <h2 class="h2" style="margin:14px 0 18px">Você sente isso no seu dia a dia?</h2>
-      <p class="lead muted">Se você se reconhece em um ou mais desses sinais, vale investigar a causa com calma e um diagnóstico preciso.</p>
-      <figure class="knee-art" aria-label="Ilustração do joelho com os pontos de dor na articulação">
-  <img src="img/knee-pain.webp" alt="Joelho com desgaste da cartilagem e pontos de dor destacados" width="900" height="1016">
-</figure>
+      <h2 class="h2">Quem vai cuidar de você</h2>
+      <ul class="cred-list">
+        <li>Ortopedista e Traumatologista, CRM-CE 17431, RQE 13567</li>
+        <li>Formação e pós-graduação em Medicina Regenerativa e Intervenção em Dor</li>
+        <li>Professor de pós-graduação em Medicina Regenerativa</li>
+        <li>Atuação em procedimentos minimamente invasivos guiados por ultrassom</li>
+        <li><strong>Mais de 10 mil pacientes atendidos</strong></li>
+      </ul>
+      <div class="cta-row"><a class="btn" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 2.5 6.5 6.5 6.5l1-1.6-2-1-1 1c-1.2-.5-2.4-1.7-2.9-2.9l1-1-1-2z"/></svg>Quero agendar minha avaliação</a></div>
     </div>
-    <div class="sym-list">
-      <div class="sym-item"><span class="check"><svg class="ico" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><p>Dor constante ao caminhar ou subir e descer escadas.</p></div>
-      <div class="sym-item"><span class="check"><svg class="ico" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><p>Rigidez e inchaço no joelho, principalmente ao acordar.</p></div>
-      <div class="sym-item"><span class="check"><svg class="ico" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><p>Limitação para praticar seus esportes favoritos ou manter sua rotina.</p></div>
-      <div class="sym-item"><span class="check"><svg class="ico" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><p>Medo de que a única solução para o seu caso seja a cirurgia de prótese.</p></div>
-      <div class="support">
-        <p>Dor no joelho por artrose não significa que você precise conviver com ela. Com o diagnóstico correto, é possível frear esse processo.</p>
-        <a class="btn btn-primary" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener">Quero agendar minha avaliação</a>
-      </div>
+    <div class="mosaic">
+      <img src="img/autoridade-procedimento.webp" alt="Dr. Leonardo realizando procedimento guiado por ultrassom" width="326" height="435" loading="lazy">
+      <img src="img/autoridade-ultrassom.webp" alt="Dr. Leonardo orientando médicos em procedimento com ultrassom" width="461" height="615" loading="lazy">
+      <img src="img/autoridade-congresso.webp" alt="Dr. Leonardo palestrando em congresso da SBOT" width="362" height="620" loading="lazy">
     </div>
   </div>
 </section>
 
-<!-- 3. TRATAMENTOS / ASSOCIAÇÕES -->
+<section class="paper" id="sintomas">
+  <div class="wrap split">
+    <div>
+      <h2 class="h2">A dor está limitando o que você gosta de fazer?</h2>
+      <p class="intro">Caminhar, subir escadas, treinar ou brincar com os filhos não deveriam se tornar decisões guiadas pelo medo da dor. Se o desconforto está afetando sua rotina, o primeiro passo é entender a causa.</p>
+    </div>
+    <div>
+      <ul class="sym-list">
+        <li><h3>Dor ao caminhar ou subir escadas</h3><p>Incômodo que dificulta tarefas simples do dia a dia.</p></li>
+        <li><h3>Rigidez, inchaço ou perda de mobilidade</h3><p>Mudanças no movimento que merecem uma avaliação individualizada.</p></li>
+        <li><h3>Dificuldade para treinar ou praticar esportes</h3><p>Dor ou limitação que atrapalha sua atividade física.</p></li>
+        <li><h3>Receio de precisar de cirurgia</h3><p>Dúvidas sobre o diagnóstico e sobre as opções disponíveis para o seu caso.</p></li>
+      </ul>
+      <p class="note">Esses sinais podem ter diferentes causas. A avaliação médica ajuda a identificar o problema e a construir um plano de cuidado adequado.</p>
+      <div class="cta-row" style="margin-top:28px"><a class="btn" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 2.5 6.5 6.5 6.5l1-1.6-2-1-1 1c-1.2-.5-2.4-1.7-2.9-2.9l1-1-1-2z"/></svg>Quero avaliar minha dor</a></div>
+    </div>
+  </div>
+</section>
+
 <section id="tratamentos">
   <div class="wrap">
-    <div class="sec-head center">
-      <span class="eyebrow">Associações</span>
-      <h2 class="h2">Tratamentos Regenerativos</h2>
-      <p class="lead muted">Cada substância age de um jeito. Entender a diferença ajuda você a saber o que esperar do seu tratamento.</p>
+    <div class="split">
+      <h2 class="h2">Opções de tratamento para diferentes necessidades.</h2>
+      <ul class="treat-list">
+        <li>Tratamentos para artrose e desgaste articular</li>
+        <li>Dor na coluna</li>
+        <li>Medicina regenerativa e ortobiológicos</li>
+        <li>Tratamentos intervencionistas para dor</li>
+        <li>Lesões esportivas e tendinopatias</li>
+        <li>Cirurgia do joelho, quando realmente indicada</li>
+        <li>Terapias físicas</li>
+      </ul>
     </div>
-    <div class="treat">
-      <article class="card">
-        <div class="art"><img src="img/knee-cartilage.webp" alt="Cartilagem e superfícies da articulação do joelho" width="800" height="928" style="object-position:center 50%"></div>
-        <h3>Ácido Hialurônico</h3>
-        <span class="tag">Melhora o ambiente da articulação</span>
-        <p>Atua principalmente melhorando o ambiente da articulação. Funciona como um lubrificante de alta qualidade que reduz o atrito e melhora o movimento.</p>
-      </article>
-      <article class="card">
-        <div class="art"><img src="img/prp-tube.webp" alt="Tubo com plasma rico em plaquetas separado do sangue, com plaquetas ampliadas" width="900" height="600"></div>
-        <h3>PRP (Plasma Rico em Plaquetas)</h3>
-        <span class="tag">Estímulo biológico do seu próprio sangue</span>
-        <p>Utiliza os componentes do seu próprio sangue para estimular respostas biológicas naturais. Ajuda a modular o processo inflamatório crônico e favorece a reparação dos tecidos.</p>
-      </article>
-      <article class="card feature">
-        <span class="badge">Diferencial</span>
-        <div class="art"><img src="img/prp-ah.webp" alt="PRP e ácido hialurônico combinados" width="900" height="600"></div>
-        <h3>A Associação Estratégica</h3>
-        <span class="tag">Mecanismos complementares</span>
-        <p>Em muitos casos, não precisamos escolher apenas um. Associamos o PRP ao Ácido Hialurônico para aproveitar mecanismos diferentes e complementares dentro de uma única estratégia de tratamento para o seu joelho.</p>
-        <div class="plus"><span>PRP</span>+<span>Ácido Hialurônico</span></div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- 4. COMO FUNCIONA -->
-<section class="dark2" id="como-funciona">
-  <div class="wrap how">
-    <div>
-      <span class="eyebrow">Como funciona</span>
-      <h2 class="h2">O Segredo do Resultado Real</h2>
-      <p class="lead muted">Não adianta apenas infiltrar. Nós não buscamos soluções temporárias.</p>
-      <p class="muted">O resultado real e duradouro vem quando unimos os procedimentos regenerativos com um programa adequado de fortalecimento e fisioterapia. É assim que devolvemos, de fato, o movimento e a qualidade de vida ao paciente. A indicação depende de um diagnóstico preciso do seu grau de lesão.</p>
-      <a class="btn btn-primary" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener">Quero saber qual o tratamento indicado para mim</a>
-    </div>
-    <div class="steps">
-      <div class="step"><span class="n">1</span><div><h3>Diagnóstico preciso</h3><p>Avaliação clínica e de exames para entender o grau da sua lesão.</p></div></div>
-      <div class="step"><span class="n">2</span><div><h3>Procedimento regenerativo</h3><p>PRP, Ácido Hialurônico ou a associação dos dois, conforme a indicação.</p></div></div>
-      <div class="step"><span class="n">3</span><div><h3>Fortalecimento e fisioterapia</h3><p>Programa direcionado para sustentar o ganho de movimento.</p></div></div>
-      <div class="step result"><span class="n"><svg class="ico" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><div><h3>Movimento e qualidade de vida</h3><p>O objetivo é você voltar à rotina com menos dor e mais autonomia.</p></div></div>
-    </div>
-  </div>
-</section>
-
-<!-- 5. ESPECIALISTA -->
-<section class="mist" id="especialista">
-  <div class="wrap spec">
-    <div class="photo doc"><img src="img/doctor.webp" alt="Dr. Leonardo Rebouças, ortopedista e traumatologista" width="621" height="1341"></div>
-    <div>
-      <span class="eyebrow">Especialista</span>
-      <h2 class="h2">Dr. Leonardo Rebouças — Ortopedista e Traumatologista</h2>
-      <div class="reg"><span>CRM-CE 17431</span><span>RQE 13567</span><span>Fortaleza · CE</span></div>
-      <p class="lead muted">Com mais de 8 anos de experiência dedicados à ortopedia e traumatologia, o Dr. Leonardo atua em Fortaleza com foco em devolver a qualidade de vida aos seus pacientes através de soluções modernas e seguras.</p>
-      <div class="hls">
-        <div class="hl-box"><b>10 mil</b><span>pacientes atendidos.</span></div>
-        <div class="hl-box"><b>Regenerativa</b><span>Foco em tratamentos minimamente invasivos e Medicina Regenerativa.</span></div>
+    <div class="strip" id="treatStrip" aria-roledescription="carrossel" aria-label="Fotos de tratamentos">
+      <div class="strip-track">
+      <img src="img/trat-prp.webp" alt="Preparo de concentrado do próprio sangue para tratamento regenerativo" width="362" height="642" loading="lazy">
+      <img src="img/trat-ultrassom.webp" alt="Dr. Leonardo avaliando paciente com ultrassom no consultório" width="361" height="625" loading="lazy">
+      <img src="img/trat-coluna.webp" alt="Procedimento na coluna guiado por ultrassom" width="362" height="480" loading="lazy">
+      <img src="img/trat-intervencao.webp" alt="Procedimento intervencionista para dor em ambiente hospitalar" width="362" height="645" loading="lazy">
+      <img src="img/trat-terapia.webp" alt="Terapia física aplicada na perna de paciente" width="362" height="636" loading="lazy">
+      <img src="img/trat-laser.webp" alt="Paciente em sessão de laserterapia no joelho" width="362" height="641" loading="lazy">
+      <img src="img/autoridade-laboratorio.webp" alt="Dr. Leonardo preparando material para tratamento regenerativo" width="283" height="502" loading="lazy">
       </div>
-      <a class="btn btn-primary" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener">Agendar avaliação com o especialista</a>
+    </div>
+    <div class="strip-foot">
+      <div class="car-nav" id="stripNav">
+        <button class="car-btn" type="button" data-dir="-1" aria-label="Foto anterior"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <button class="car-btn" type="button" data-dir="1" aria-label="Próxima foto"><svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+      <a class="btn" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 2.5 6.5 6.5 6.5l1-1.6-2-1-1 1c-1.2-.5-2.4-1.7-2.9-2.9l1-1-1-2z"/></svg>Quero saber quais opções existem para o meu caso</a>
     </div>
   </div>
 </section>
 
-<!-- DEPOIMENTOS -->
-<section id="depoimentos">
+<section class="night" id="consulta">
   <div class="wrap">
-    <div class="sec-head center">
-      <span class="eyebrow">Depoimentos</span>
-      <h2 class="h2">O que dizem os pacientes</h2>
-      <p class="lead muted">Avaliações publicadas no Google.</p>
+    <h2 class="h2" style="max-width:24ch">Uma consulta para entender a causa, não apenas tratar o sintoma</h2>
+    <p class="intro">Antes de escolher um procedimento, é preciso entender sua história, examinar seus movimentos e relacionar os sintomas aos achados dos exames. A avaliação é o ponto de partida para decidir o que faz sentido para você.</p>
+    <ol class="flow">
+      <li><span class="n">1</span><span>Avaliação detalhada</span></li>
+      <li><span class="n">2</span><span>Análise dos exames</span></li>
+      <li><span class="n">3</span><span>Exame físico</span></li>
+      <li><span class="n">4</span><span>Ultrassom, quando indicado</span></li>
+      <li><span class="n">5</span><span>Explicação do diagnóstico</span></li>
+      <li><span class="n">6</span><span>Opções de tratamento</span></li>
+      <li><span class="n">7</span><span>Plano individualizado</span></li>
+    </ol>
+    <div class="visit-photos">
+      <img src="img/consulta-conversa.webp" alt="Dr. Leonardo conversando com paciente durante a consulta" width="483" height="859" loading="lazy">
+      <img src="img/consulta-exames.webp" alt="Dr. Leonardo analisando exames de imagem com paciente" width="605" height="807" loading="lazy">
+      <img src="img/consulta-exame-fisico.webp" alt="Dr. Leonardo realizando exame físico do joelho" width="362" height="645" loading="lazy">
     </div>
+    <div class="cta-row"><a class="btn light" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 2.5 6.5 6.5 6.5l1-1.6-2-1-1 1c-1.2-.5-2.4-1.7-2.9-2.9l1-1-1-2z"/></svg>Quero entender meu caso</a></div>
+  </div>
+</section>
+
+<section id="por-que">
+  <div class="wrap">
+    <h2 class="h2">Por que escolher o Dr. Leonardo?</h2>
+    <p class="intro">Cada paciente tem uma história, uma condição física e uma expectativa diferente. O atendimento reúne avaliação, explicação e planejamento para que as decisões sejam feitas com clareza.</p>
+    <dl class="why">
+      <div class="row"><dt>Diagnóstico preciso</dt><dd>Não existe tratamento avançado sem entender primeiro a origem da dor.</dd></div>
+      <div class="row"><dt>Tecnologia no próprio consultório</dt><dd>Recursos diagnósticos e terapêuticos integrados ao atendimento, conforme indicação.</dd></div>
+      <div class="row"><dt>Tratamentos minimamente invasivos</dt><dd>Alternativas modernas são consideradas quando adequadas ao diagnóstico.</dd></div>
+      <div class="row"><dt>Reabilitação integrada</dt><dd>Procedimento e fortalecimento trabalham juntos.</dd></div>
+      <div class="row"><dt>Acompanhamento</dt><dd>O tratamento não termina no procedimento.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="paper" id="depoimentos">
+  <div class="wrap">
+    <h2 class="h2">A experiência de quem já foi atendido.</h2>
     <div class="carousel" id="reviews" aria-roledescription="carrossel" aria-label="Depoimentos de pacientes">
       <div class="car-view">
         <div class="car-track">
-        <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="1 de 6"><img src="img/depoimento-1.jpeg" alt="Avaliação 5 estrelas de Luiza Moreira no Google" loading="lazy"></figure>
-        <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="2 de 6"><img src="img/depoimento-2.jpeg" alt="Avaliação 5 estrelas de Allison Silva no Google" loading="lazy"></figure>
-        <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="3 de 6"><img src="img/depoimento-3.jpeg" alt="Avaliação 5 estrelas de Vânia Araújo no Google" loading="lazy"></figure>
-        <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="4 de 6"><img src="img/depoimento-4.jpeg" alt="Avaliação 5 estrelas de Italo Rodrigues no Google" loading="lazy"></figure>
-        <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="5 de 6"><img src="img/depoimento-5.jpeg" alt="Avaliação 5 estrelas de Carla Monique no Google" loading="lazy"></figure>
-        <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="6 de 6"><img src="img/depoimento-6.jpeg" alt="Avaliação 5 estrelas de Marcelo Marcelo no Google" loading="lazy"></figure>
+          <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="1 de 6"><img src="img/depoimento-1.jpeg" alt="Avaliação 5 estrelas de Luiza Moreira no Google" loading="lazy"></figure>
+          <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="2 de 6"><img src="img/depoimento-2.jpeg" alt="Avaliação 5 estrelas de Allison Silva no Google" loading="lazy"></figure>
+          <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="3 de 6"><img src="img/depoimento-3.jpeg" alt="Avaliação 5 estrelas de Vânia Araújo no Google" loading="lazy"></figure>
+          <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="4 de 6"><img src="img/depoimento-4.jpeg" alt="Avaliação 5 estrelas de Italo Rodrigues no Google" loading="lazy"></figure>
+          <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="5 de 6"><img src="img/depoimento-5.jpeg" alt="Avaliação 5 estrelas de Carla Monique no Google" loading="lazy"></figure>
+          <figure class="car-slide" role="group" aria-roledescription="slide" aria-label="6 de 6"><img src="img/depoimento-6.jpeg" alt="Avaliação 5 estrelas de Marcelo Marcelo no Google" loading="lazy"></figure>
         </div>
       </div>
-      <div class="car-nav">
+    </div>
+    <div class="reviews-foot">
+      <div class="car-nav" id="carNav">
         <button class="car-btn" type="button" data-dir="-1" aria-label="Depoimento anterior"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg></button>
         <div class="car-dots"></div>
         <button class="car-btn" type="button" data-dir="1" aria-label="Próximo depoimento"><svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg></button>
       </div>
+      <a class="btn quiet" href="https://www.google.com/search?q=Dr.+Leonardo+Rebou%C3%A7as+ortopedista+Fortaleza" target="_blank" rel="noopener">Ver avaliações no Google</a>
     </div>
   </div>
 </section>
 
-<!-- 6. FAQ -->
-<section class="dark" id="duvidas">
-  <div class="wrap faq-grid">
+<section id="especialista">
+  <div class="wrap spec">
+    <div class="spec-photo"><img src="img/doctor.webp" alt="Dr. Leonardo Rebouças, ortopedista e traumatologista" width="621" height="1341" loading="lazy"></div>
     <div>
-      <span class="eyebrow">Dúvidas frequentes</span>
-      <h2 class="h2" style="margin:14px 0 18px">Perguntas que ouvimos no consultório</h2>
-      <p class="muted">Ficou alguma dúvida? Ela pode ser respondida na sua avaliação, olhando o seu caso de perto.</p>
+      <h2 class="h2">Dr. Leonardo Rebouças</h2>
+      <p class="reg">Ortopedista e Traumatologista, CRM-CE 17431, RQE 13567</p>
+      <p class="body" style="font-size:19px;margin-top:28px">O Dr. Leonardo Rebouças atua em Fortaleza no cuidado de lesões ortopédicas e condições que afetam o movimento. Sua abordagem reúne avaliação individualizada, tratamento médico e reabilitação, com atenção à dor, à função e aos objetivos de cada paciente.</p>
+      <p class="body">De uma caminhada sem tanto desconforto ao retorno ao esporte, o plano de cuidado considera aquilo que é importante para a sua vida.</p>
+      <p class="body">Além da atuação clínica, é professor e sócio da Interpain, onde participa da formação de médicos em medicina regenerativa. Sua experiência no ensino reforça o compromisso com o estudo e a discussão das opções de cuidado.</p>
+      <div class="cta-row" style="margin-top:36px"><a class="btn" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 2.5 6.5 6.5 6.5l1-1.6-2-1-1 1c-1.2-.5-2.4-1.7-2.9-2.9l1-1-1-2z"/></svg>Quero agendar com o Dr. Leonardo</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="paper" id="duvidas">
+  <div class="wrap split">
+    <div>
+      <h2 class="h2">Respostas prontas para reduzir dúvidas.</h2>
+      <p class="intro">Ficou alguma dúvida? Ela pode ser respondida na sua avaliação, olhando o seu caso de perto.</p>
     </div>
     <div class="faq">
-      <details open>
-        <summary>O procedimento dói?<span class="pm"><svg class="ico" viewBox="0 0 24 24" style="width:16px;height:16px"><path d="M12 5v14M5 12h14"/></svg></span></summary>
-        <div class="ans">A aplicação é rápida e feita no consultório, com cuidados voltados ao seu conforto. Em geral, o paciente sente apenas um leve desconforto no momento da infiltração e retoma as atividades leves no mesmo dia.</div>
-      </details>
-      <details>
-        <summary>Serve para qualquer grau de artrose?<span class="pm"><svg class="ico" viewBox="0 0 24 24" style="width:16px;height:16px"><path d="M12 5v14M5 12h14"/></svg></span></summary>
-        <div class="ans">Não. O PRP não é para todo mundo. A indicação depende da avaliação e do grau da lesão, por isso o primeiro passo é sempre um diagnóstico preciso do seu joelho.</div>
-      </details>
-      <details>
-        <summary>Onde é feito o tratamento?<span class="pm"><svg class="ico" viewBox="0 0 24 24" style="width:16px;height:16px"><path d="M12 5v14M5 12h14"/></svg></span></summary>
-        <div class="ans">No próprio consultório, na Aldeota, em Fortaleza. Não há necessidade de internação nem de centro cirúrgico.</div>
-      </details>
+      <details open><summary>Todo caso precisa de infiltração?<span class="pm" aria-hidden="true"></span></summary><p>Não. O tratamento pode envolver orientações, medicamentos, fisioterapia e exercícios. Procedimentos são considerados quando há indicação para o seu diagnóstico.</p></details>
+      <details><summary>É possível tratar sem cirurgia?<span class="pm" aria-hidden="true"></span></summary><p>Em muitos casos, existem opções não cirúrgicas. Em outros, a cirurgia pode ser o caminho mais adequado. A avaliação ajuda a discutir as alternativas, os benefícios e os riscos para o seu caso.</p></details>
+      <details><summary>PRP e ácido hialurônico servem para qualquer paciente?<span class="pm" aria-hidden="true"></span></summary><p>Não. São recursos com indicações específicas. A escolha depende do diagnóstico, dos sintomas, das condições de saúde e da avaliação médica.</p></details>
+      <details><summary>O procedimento dói?<span class="pm" aria-hidden="true"></span></summary><p>A sensação varia conforme o procedimento e a sensibilidade de cada pessoa. Os cuidados para conforto, os riscos e as orientações após a aplicação são explicados antes do tratamento.</p></details>
+      <details><summary>O tratamento é feito no consultório?<span class="pm" aria-hidden="true"></span></summary><p>Algumas avaliações e procedimentos podem ser realizados no consultório. Outros exigem estrutura específica. O local adequado é definido de acordo com a técnica e as necessidades do paciente.</p></details>
+      <details><summary>Quando posso voltar a treinar?<span class="pm" aria-hidden="true"></span></summary><p>Isso depende da condição tratada, do procedimento realizado e da sua evolução. O retorno é orientado de forma individualizada e pode ser gradual.</p></details>
+      <details><summary>Como agendar a consulta?<span class="pm" aria-hidden="true"></span></summary><p>Entre em contato pelo WhatsApp. A equipe informa a disponibilidade de horários, o local de atendimento e as orientações para a consulta.</p></details>
     </div>
   </div>
 </section>
 
-<!-- LOCALIZAÇÃO -->
-<section class="mist" id="localizacao">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="eyebrow">Localização</span>
+<section id="localizacao">
+  <div class="wrap local">
+    <div>
       <h2 class="h2">Consultório na Aldeota</h2>
+      <p class="addr">Av. Dom Luís, nº 880, sala 1<br>Aldeota, Fortaleza, CE<br>CEP 60160-230</p>
+      <dl>
+        <div><dt>Agendamento</dt><dd>WhatsApp (85) 9138-5597, somente com horário marcado</dd></div>
+        <div><dt>Responsável técnico</dt><dd>Dr. Leonardo Rebouças, CRM-CE 17431, RQE 13567</dd></div>
+      </dl>
+      <div class="cta-row" style="margin-top:28px"><a class="btn quiet" href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Dom+Lu%C3%ADs%2C+880%2C+Aldeota%2C+Fortaleza+-+CE%2C+60160-230" target="_blank" rel="noopener">Abrir no Google Maps</a></div>
     </div>
-    <div class="loc">
-      <div class="loc-card">
-        <div class="loc-row"><svg class="ico" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><b>Endereço</b><span>Av. Dom Luís, nº 880, sala 1 – Aldeota<br>Fortaleza – CE · CEP 60160-230</span></div></div>
-        <div class="loc-row"><svg class="ico" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><div><b>Agendamento</b><span>WhatsApp (85) 9138-5597 · somente com horário marcado.</span></div></div>
-        <div class="loc-row"><svg class="ico" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg><div><b>Responsável técnico</b><span>Dr. Leonardo Rebouças · CRM-CE 17431 · RQE 13567</span></div></div>
-      </div>
-      <div class="map-card">
-        <svg class="grid" viewBox="0 0 400 280" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g stroke="#2a3673" stroke-width="1" fill="none"><path d="M0 60h400M0 140h400M0 220h400M70 0v280M170 0v280M290 0v280"/><path d="M0 250L400 30" stroke-width="6" stroke="#17225c"/></g></svg>
-        <span class="pin"><i></i></span>
-        <div>
-          <p style="font:500 22px/1.3 var(--display)">Av. Dom Luís, 880</p>
-          <p class="muted" style="color:var(--snow-muted)">Aldeota · Fortaleza</p>
-        </div>
-        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Av.+Dom+Lu%C3%ADs%2C+880%2C+Aldeota%2C+Fortaleza+-+CE%2C+60160-230" target="_blank" rel="noopener">Abrir no Google Maps</a>
-      </div>
-    </div>
+    <iframe class="map" title="Mapa do consultório na Av. Dom Luís, 880" src="https://www.google.com/maps?q=Av.+Dom+Lu%C3%ADs,+880,+Aldeota,+Fortaleza+-+CE,+60160-230&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </section>
 
-<!-- CTA FINAL -->
-<section class="final" id="agendar">
+<section class="night final" id="agendar">
   <div class="wrap">
-    <span class="eyebrow">Agende sua avaliação</span>
-    <h2 class="h2">Descubra qual tratamento é indicado para o seu joelho</h2>
-    <p class="lead">Na avaliação, o Dr. Leonardo analisa o grau da sua lesão e explica, com clareza, as opções para o seu caso.</p>
-    <p class="wa-num">WhatsApp: <strong>(85) 9138-5597</strong></p>
-        <a class="btn btn-primary" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener">Quero agendar minha avaliação</a>
+    <h2 class="h2">Seu próximo passo começa com um diagnóstico preciso.</h2>
+    <div class="side">
+      <p>Agende sua avaliação com o Dr. Leonardo e entenda quais opções de tratamento são adequadas ao seu caso.</p>
+      <a class="btn" href="https://wa.me/558591385597?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20agendar%20minha%20avalia%C3%A7%C3%A3o%20com%20o%20Dr.%20Leonardo." target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c0 3.5 2.5 6.5 6.5 6.5l1-1.6-2-1-1 1c-1.2-.5-2.4-1.7-2.9-2.9l1-1-1-2z"/></svg>Agendar pelo WhatsApp</a>
+      <p class="phone">ou ligue para <strong>(85) 9138-5597</strong></p>
+    </div>
   </div>
 </section>
 </main>
@@ -537,23 +451,23 @@ footer{background:var(--navy-900);color:var(--snow-muted);font-size:14px;padding
   <div class="wrap">
     <div class="foot">
       <div>
-        <a class="brand" href="#inicio" style="margin-bottom:16px"><img src="img/logo.png" alt="Dr. Leonardo Rebouças, Ortopedista" width="400" height="212" style="height:72px;width:auto"></a>
-        <p>Ortopedia e Medicina Regenerativa em Fortaleza, com foco em tratamentos minimamente invasivos.</p>
+        <a class="brand" href="#inicio"><img src="img/logo.png" alt="Dr. Leonardo Rebouças, Ortopedista" width="400" height="212" style="height:64px;width:auto;margin-bottom:16px"></a>
+        <p>Ortopedia, intervenção em dor e medicina regenerativa em Fortaleza.</p>
       </div>
       <div>
         <h4>Navegação</h4>
         <a href="#tratamentos">Tratamentos</a>
-        <a href="#como-funciona">Como funciona</a>
+        <a href="#consulta">A consulta</a>
         <a href="#especialista">Especialista</a>
         <a href="#duvidas">Dúvidas</a>
       </div>
       <div>
         <h4>Consultório</h4>
-        <p>Av. Dom Luís, nº 880, sala 1 – Aldeota<br>Fortaleza – CE · CEP 60160-230</p>
+        <p>Av. Dom Luís, nº 880, sala 1<br>Aldeota, Fortaleza, CE<br>CEP 60160-230</p>
       </div>
     </div>
     <div class="legal">
-      <span><strong>Dr. Leonardo Rebouças</strong> · Ortopedista e Traumatologista · CRM-CE 17431 · RQE 13567</span>
+      <span>Dr. Leonardo Rebouças, Ortopedista e Traumatologista, CRM-CE 17431, RQE 13567</span>
       <span>Este conteúdo é informativo e não substitui a avaliação médica.</span>
     </div>
   </div>
@@ -567,26 +481,8 @@ footer{background:var(--navy-900);color:var(--snow-muted);font-size:14px;padding
 
   var header=document.querySelector('header.site');
   var reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var revealItems=document.querySelectorAll('main section:not(.hero)');
-  revealItems.forEach(function(item){item.classList.add('reveal')});
-  if(reduceMotion){
-    revealItems.forEach(function(item){item.classList.add('is-visible')});
-  }else if('IntersectionObserver' in window){
-    var revealObserver=new IntersectionObserver(function(entries,observer){
-      entries.forEach(function(entry){
-        if(entry.isIntersecting){
-          entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    },{threshold:.12,rootMargin:'0px 0px -8%'});
-    revealItems.forEach(function(item){revealObserver.observe(item)});
-  }else{
-    revealItems.forEach(function(item){item.classList.add('is-visible')});
-  }
 
   var menuLinks=Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]'));
-  var trackedSections=Array.prototype.slice.call(document.querySelectorAll('main section[id]'));
   var activeObserver=new IntersectionObserver(function(entries){
     entries.forEach(function(entry){
       if(!entry.isIntersecting)return;
@@ -595,15 +491,36 @@ footer{background:var(--navy-900);color:var(--snow-muted);font-size:14px;padding
       if(active)active.setAttribute('aria-current','true');
     });
   },{rootMargin:'-25% 0px -65%'});
-  trackedSections.forEach(function(section){activeObserver.observe(section)});
+  document.querySelectorAll('main section[id]').forEach(function(section){activeObserver.observe(section)});
 
   function updateHeader(){header.classList.toggle('scrolled',window.scrollY>12)}
   updateHeader();
   window.addEventListener('scroll',updateHeader,{passive:true});
 
-  var car=document.getElementById('reviews');
+  var strip=document.getElementById('treatStrip'),stripNav=document.getElementById('stripNav');
+  if(strip){
+    var sTrack=strip.querySelector('.strip-track'),sItems=sTrack.children,sIdx=0,sTimer=null;
+    function sMax(){return Math.max(0,sTrack.scrollWidth-strip.clientWidth)}
+    function sStepW(){return sItems[0].getBoundingClientRect().width+12}
+    function sGo(n){
+      var last=Math.ceil(sMax()/sStepW());
+      if(n>last)n=0;if(n<0)n=last;
+      sIdx=n;
+      sTrack.style.transform='translateX(-'+Math.min(n*sStepW(),sMax())+'px)';
+    }
+    function sStop(){clearInterval(sTimer);sTimer=null}
+    function sStart(){if(!sTimer)sTimer=setInterval(function(){sGo(sIdx+1)},3500)}
+    stripNav.querySelectorAll('.car-btn').forEach(function(b){b.addEventListener('click',function(){sGo(sIdx+ +b.dataset.dir);sStop();sStart()})});
+    strip.addEventListener('mouseenter',sStop);strip.addEventListener('mouseleave',sStart);
+    var sx0=null;
+    strip.addEventListener('touchstart',function(e){sx0=e.touches[0].clientX;sStop()},{passive:true});
+    strip.addEventListener('touchend',function(e){if(sx0===null)return;var dx=e.changedTouches[0].clientX-sx0;if(Math.abs(dx)>40)sGo(sIdx+(dx<0?1:-1));sx0=null;sStart()});
+    window.addEventListener('resize',function(){sGo(sIdx)});
+    sStart();
+  }
+  var car=document.getElementById('reviews'),carNav=document.getElementById('carNav');
   if(car){
-    var track=car.querySelector('.car-track'),slides=track.children,dotsBox=car.querySelector('.car-dots');
+    var track=car.querySelector('.car-track'),slides=track.children,dotsBox=carNav.querySelector('.car-dots');
     var idx=0,timer=null,dots=[];
     for(var i=0;i<slides.length;i++){
       var d=document.createElement('button');
@@ -619,16 +536,17 @@ footer{background:var(--navy-900);color:var(--snow-muted);font-size:14px;padding
     function stop(){clearInterval(timer);timer=null}
     function start(){if(!reduceMotion&&!timer)timer=setInterval(function(){go(idx+1)},5000)}
     function restart(){stop();start()}
-    car.querySelectorAll('.car-btn').forEach(function(b){b.addEventListener('click',function(){go(idx+ +b.dataset.dir);restart()})});
-    car.addEventListener('mouseenter',stop);car.addEventListener('mouseleave',start);
-    car.addEventListener('focusin',stop);car.addEventListener('focusout',start);
+    carNav.querySelectorAll('.car-btn').forEach(function(b){b.addEventListener('click',function(){go(idx+ +b.dataset.dir);restart()})});
+    [car,carNav].forEach(function(el){
+      el.addEventListener('mouseenter',stop);el.addEventListener('mouseleave',start);
+      el.addEventListener('focusin',stop);el.addEventListener('focusout',start);
+    });
     var x0=null;
     track.addEventListener('touchstart',function(e){x0=e.touches[0].clientX;stop()},{passive:true});
     track.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)go(idx+(dx<0?1:-1));x0=null;start()});
     go(0);start();
   }
-
 })();
 </script>
-
-</body></html>
+</body>
+</html>
